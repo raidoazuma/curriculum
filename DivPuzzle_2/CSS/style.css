@@ -1,0 +1,54 @@
+@charset "utf-8";
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body{
+  width: 400px;
+  height: 450px;
+}
+
+header{
+  height: 100px;
+  width: auto;
+  background: #ff0000;
+}
+
+.green-box{
+  height: 250px;
+  width: 150px;
+  background: #00ff1e;
+  float: left;
+}
+
+.orange-box{
+  height: 250px;
+  width: 150px;
+  background: ;
+  float: left;
+}
+.purple-box{
+  height: 250px;
+  width: 150px;
+  background: #00ff1e;
+  float: left;
+}
+.navy-box{
+  height: 250px;
+  width: 150px;
+  background: #00ff1e;
+  float: left;
+}
+.brown-box{
+  height: 250px;
+  width: 250px;
+  background: #30f;
+  float: left;
+}
+
+footer{
+  height: 100px;
+  background: #ffe600;
+}
