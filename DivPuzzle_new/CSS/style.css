@@ -44,16 +44,16 @@
   background: #2563eb;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .orange{
   width: 140px;
   height: 40px;
   background: #ff863f;
-  padding: 5px;
-  margin: 10px;
-  border: 10px #fff;
-
+  margin-bottom: 10px;
+  border: white solid 5px;
 }
 
 .yellow{
