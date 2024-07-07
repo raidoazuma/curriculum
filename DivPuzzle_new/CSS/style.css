@@ -8,6 +8,7 @@
   width: 400px;
   height: 100px;
   background: #f00;
+  position: relative;
 }
 
 .white{
@@ -16,13 +17,15 @@
   right: 20px;
   background: #fff;
   display: flex;
+  padding: 10px 10px 10px 0px;
+
 }
 
 .purple{
   width: 40px;
   height: 40px;
-  margin: 10px;
   background: #6729a0;
+  margin-left: 10px;
 }
 
 .mid{
