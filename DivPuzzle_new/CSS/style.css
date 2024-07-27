@@ -1,9 +1,5 @@
 @charset "utf-8";
 
-.container_red{
-  display: flex;
-}
-
 .red{
   width: 400px;
   height: 100px;
@@ -17,8 +13,7 @@
   right: 20px;
   background: #fff;
   display: flex;
-  padding: 10px 10px 10px 0px;
-
+  padding: 10px;
 }
 
 .purple{
@@ -26,6 +21,10 @@
   height: 40px;
   background: #6729a0;
   margin-left: 10px;
+}
+
+.purple:first-child{
+  margin-left: 0px;
 }
 
 .mid{
@@ -54,6 +53,10 @@
   background: #ff863f;
   margin-bottom: 10px;
   border: white solid 5px;
+}
+
+.porange:last-child{
+  margin: 0px;
 }
 
 .yellow{
